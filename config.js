@@ -10,11 +10,11 @@
 *
 */
 
-exports.server = 'localhost';
+exports.server = 'lotus.kota.moe';
 
-exports.port = 8000;
+exports.port = 80;
 
-exports.serverid = 'localhost';
+exports.serverid = 'eso';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -23,9 +23,9 @@ exports.connectionTimeout = 2 * 60 * 1000;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'Alliance Sky';
 
-exports.pass = '';
+exports.pass = 'aaaaa';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -33,7 +33,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['thebotlab'];
 /*
 * exports.rooms = 'all'; //For joining all rooms
 * exports.rooms = 'official'; //For joining official rooms
